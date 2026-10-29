@@ -1,2 +1,2 @@
-# TP1-PowerShell
-Trabajo Practico 1 Power Shell 
+# TP-PowerShell
+Trabajo Practicos en Power Shell 
