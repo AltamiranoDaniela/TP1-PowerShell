@@ -20,14 +20,14 @@ pre{background:#fff0f3;color:#5a2a3a;padding:18px;border-radius:12px;border:1px 
 <body>
 
 <div class="header">
-<small>TRABAJO PRÁCTICO 1</small>
+<small>TRABAJO PRÁCTICOS</small>
 <h1>PowerShell</h1>
 <p>Alumna: Altamirano, Daniela</p>
 </div>
 
 <div class="card">
 <h2>Acerca del trabajo</h2>
-<p>Esta página presenta los comandos incluidos en el archivo <b>tp1.ps1</b> del repositorio.</p>
+<p>Esta página presenta los comandos de los trabajos practicos realizados que se visualizaran en el repositorio.</p>
 
 <h2>Mi código de tp1.ps1</h2>
 
@@ -43,6 +43,24 @@ pre{background:#fff0f3;color:#5a2a3a;padding:18px;border-radius:12px;border:1px 
 <p><b>4. Información completa del sistema:</b></p>
 <pre><code>systeminfo</code></pre>
 <a class="btn" href="tp1.ps1" target="_blank">Ver archivo tp1.ps1</a>
+  
+  <h2>Mi código de tp2.ps1</h2>
+
+<p><b>1. TP2 - PUNTO 1 Hola "nombre":</b></p>
+<pre><code>$Nombre = Read-Host "Como te llamas"
+Write-Host "Hola $Nombre"</code></pre>
+  
+<a class="btn" href="Tp2.ps1" target="_blank">Ver archivo tp2.ps1</a>
+  
+<p><b>2. TP2.2 - Horas, costo y paga:</b></p>
+<pre><code>$Horas = Read-Host "Ingresa el numero de horas trabajadas"
+$Costo = Read-Host "Ingresa el costo por hora"
+$Paga = [int]$Horas * [double]$Costo
+Write-Host "Paga correspondiente"
+Write-Host $Paga</code></pre>
+
+<a class="btn" href="Tp2.2.ps1" target="_blank">Ver archivo Tp2.2.ps1</a>
+
 <a class="btn btn2" href="https://github.com/AltamiranoDaniela/TP1-PowerShell" target="_blank">Ver repositorio en GitHub</a>
 </div>
 
