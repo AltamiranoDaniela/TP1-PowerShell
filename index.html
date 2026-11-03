@@ -62,6 +62,18 @@ Write-Host $Paga</code></pre>
 
 <a class="btn" href="Tp2.2.ps1" target="_blank">Ver archivo Tp2.2.ps1</a>
 
+  <p><b>3. TP3 - Horas-Números pares e impares:</b></p>
+<pre><code>$limite = Read-Host "Introduce un numero limite"
+for ($i = 1; $i -le $limite; $i++) {
+    $hora = Get-Date -Format "HH:mm:ss"
+    if ($i % 2 -eq 0) {
+        Write-Host "[$hora] El numero $i es PAR"
+    } else {
+        Write-Host "[$hora] El numero $i es impar"
+    }
+}</code></pre>
+
+<a class="btn" href="Tp3.ps1" target="_blank">Ver archivo Tp3.ps1</a>
 <a class="btn btn2" href="https://github.com/AltamiranoDaniela/TP1-PowerShell" target="_blank">Ver repositorio en GitHub</a>
 </div>
 
